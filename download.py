@@ -220,7 +220,8 @@ def set_state(state_fp, cdata):
 
 
 if __name__ == "__main__":
-    month = extract_month(args.url_file)
+    #month = extract_month(args.url_file)
+    month = 0
 
     # in case we are resuming from a previous run
     completed_uids, state_fp, prev_cid = get_state(month, args.output_dir)
