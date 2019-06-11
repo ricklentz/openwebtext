@@ -4,8 +4,8 @@ Modifications:
 
 in urls directory run:
 cat *.txt > all.txt 
-install requirements.txt on ubuntu 18.04 LTS
-python download.py urls/all.txt --n_procs 100  --scraper raw --chunk_size 10000 --compress --timeout -1
+install requirements.txt on ubuntu 18.04 LTS    
+python download.py urls/all.txt --n_procs 100  --scraper raw --chunk_size 10000 --compress --timeout -1  
 
 
 [Joshua Peterson](http://joshpeterson.io), [Stephan Meylan](https://stephanmeylan.com), & David Bourgin
